@@ -1,65 +1,10 @@
-.slider-container {
+.projects-container {
     width: 95% !important;
     margin: 8rem auto !important;
     text-align: center !important;
     justify-content: center;
     align-items: center;
 }
-
-.slick-slider {
-    width: 80%;
-    margin: auto;
-}
-
-
-
-.slick-arrow,
-.slick-next:focus::before,
-.slick-next:hover::before,
-.slick-next:focus,
-.slick-next:hover {
-    background-image: url('../../assets/arrow.png');
-    background-size: cover;
-    border: 2px solid #337AA5;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
-
-.slick-next::before,
-.slick-prev::before,
-.slick-next:focus::before,
-.slick-next:hover::before,
-.slick-prev:focus::before,
-.slick-prev:hover::before {
-    opacity: 0;
-}
-
-.slick-prev,
-.slick-prev:focus::before,
-.slick-prev:hover::before,
-.slick-prev:focus,
-.slick-prev:hover {
-    background-image: url('../../assets/arrow.png');
-    background-size: cover;
-    border: 2px solid #337AA5;
-    transform: rotate(-180deg) !important;
-}
-
-
-
-.projects-container .tabs {
-    margin: 5rem 0;
-}
-
-.content-tab {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
-
-
-
 
 @media (max-width:992px) {
     .projects-cards {

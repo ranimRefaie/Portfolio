@@ -4,7 +4,7 @@ import Data from "../../Data/Data";
 import TitleSection from "../TitleSection/TitleSection";
 const Projects = () => {
   return (
-    <div id="projects" className="slider-container projects-container">
+    <div id="projects" className=" projects-container">
       <TitleSection title="My Projects" />
       <div
         className="projects-cards"
