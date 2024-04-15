@@ -1,4 +1,4 @@
-import pro_1 from "../assets/phono.png";
+import pro_1 from "../assets/B-World.png";
 import pro_2 from "../assets/skiff.png";
 import pro_3 from "../assets/Edusity.png";
 import pro_4 from "../assets/Educational-Platform.png";
@@ -9,10 +9,10 @@ const Data = [
     {
         id: 1,
         img: pro_1,
-        title: 'Phpno',
+        title: 'B-World',
         desc: 'Responsive website using React js,React Bootstrap ',
-        demo: 'https://ranimrefaie.github.io/Phono/',
-        git: 'https://github.com/ranimRefaie/Phono',
+        demo: 'https://ranimrefaie.github.io/B-World',
+        git: 'https://github.com/ranimRefaie/B-World',
     },
     {
         id: 2,
