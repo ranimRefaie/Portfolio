@@ -121,7 +121,7 @@
 
 .details .buttons a:hover {
     transition: all 0.4s ease-in-out;
-    color: var(--border);
+    color: #15B9B9;
     background: transparent;
     border: 1.5px solid #15B9B9;
 }

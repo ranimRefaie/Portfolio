@@ -16,8 +16,9 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.card-body button {
+.card-body a {
     margin: auto;
+    width: 8rem;
 }
 
 

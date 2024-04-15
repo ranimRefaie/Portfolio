@@ -36,7 +36,7 @@ form button {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-    border: 1.5px solid var(--border);
+    border: 1.5px solid #15B9B9;
     border-radius: 0.6rem;
     background: linear-gradient(180deg, rgb(21, 185, 185) 0%, #3C1DFF 100%);
     padding: 0.7rem;
