@@ -8,7 +8,7 @@ const ButtonDownload = ({ text }) => {
       className="btn-cv"
       whileInView={{ scale: 1.1 }}
       href="https://ranimrefaie.github.io/portfolio/ranim_alrefaie.pdf"
-      download="ranim.pdf"
+      download="RanimAlrefaie.pdf"
     >
       <FaCloudArrowDown className="icon" />
       <span>{text}</span>
