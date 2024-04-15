@@ -35,7 +35,7 @@ const AboutMe = () => {
             className="buttons-about"
             style={{ display: "flex", gap: "2rem" }}
           >
-            <ButtonDownload text="Download CV" />
+            <ButtonDownload text="Download CV" link='https://ranimrefaie.github.io/portfolio/ranim_alrefaie.pdf' name="RanimAlrefaie.pdf"/>
             <ButtonHire />
           </div>
         </div>

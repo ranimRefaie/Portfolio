@@ -12,12 +12,16 @@ const Certificates = () => {
       img: certificate_1,
       title: "Front End Training Certificate",
       desc: "During a 4-month training period at Focal x agency Company, I gained valuable experience in Front-end development using various technologies such as HTML, CSS, JavaScript, React.js, and Bootstrap. Additionally, I learned how to work with APIs and interact with GitHub to effectively manage projects. Collaborating within the team was a valuable experience where I learned how to communicate and cooperate with others to successfully achieve project goals.",
+      link: "https://ranimrefaie.github.io/portfolio/certificate-1.jpg",
+      nameLink: "certificate-1.jpg",
     },
     {
       id: 2,
       img: certificate_2,
       title: "Certificate Of Attendance",
       desc: " A certificate of attendance and successful completion of a 60-hour training course provided by the Syrian Scientific Society for Informatics for Full Stack developers, which includes HTML5, CSS, JavaScript, ASP.NET, and SQL Server.",
+      link: "https://ranimrefaie.github.io/portfolio/certificate-2.jpg",
+      nameLink: "certificate-2.jpg",
     },
   ];
   return (
@@ -52,7 +56,11 @@ const Certificates = () => {
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
             <Card.Text>{item.desc}</Card.Text>
-            <ButtonDownload text=" Download" />
+            <ButtonDownload
+              text=" Download"
+              link={item.link}
+              name={item.nameLink}
+            />
           </Card.Body>
         </Card>
       ))}
